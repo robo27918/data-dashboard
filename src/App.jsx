@@ -37,9 +37,9 @@ function App() {
       <h2> Software Developer Employment Data Dashboard</h2>
       <ul className='main-list'>
         <div className='list-header'>
-          <div className="column"> State</div>
-          <div className="column">Year</div>
-          <div className="column">Yearly Wage in USD</div>
+          <div className="column"> <button className='state-col-button'>State</button></div>
+          <div className="column"><button className='year-col-button'>Year</button></div>
+          <div className="column"><button className='wage-col-button'>Avg Wage ($)</button></div>
         </div>
         {listItems}
       </ul>
