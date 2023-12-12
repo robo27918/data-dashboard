@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+ 
+}
+
+.list-header, .list-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  /* Optional: Add styling for individual columns */
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+ul{
+  
+  list-style-type: none;
+}
+
+
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
