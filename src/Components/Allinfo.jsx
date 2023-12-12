@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-const Allinfo = ({stateName, year, avg_wage}) =>{
-    console.log()
+const Allinfo = ({key ,stateName, year, avg_wage}) =>{
+    //console.log("key from Allinfo ",key)
     return (
         <li>
             <div className="list-container">
